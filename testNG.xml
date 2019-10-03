@@ -1,0 +1,17 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<suite name="name" verbose="1"  >
+
+
+    <test name="name">
+        <parameter name="drive" value="Chrome"/>
+        <classes>
+            <class name="ejemploTest.TestEjemplo">
+                <methods>
+                    <include name="abrirPagina"/>
+                    <include name="ejemplo"/>
+                </methods>
+            </class>
+        </classes>
+    </test>
+
+</suite>
